@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html {
+  background-color: #d6d4dc;
+  background-color: #817e8b;
+  background-color: #231f36;
+}
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #d6d4dc;
+  box-shadow: 0px 0px 8px 2px #000000;
+  padding: 16px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: #231f36;
+}
+
+a {
+  margin-right: 10px;
+}
+
+section {
+  margin: auto;
+  width: 800px;
+}
+.minha-foto {
+  border-radius: 50%;
+  width: 150px;
+  height: 160px;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.sobre-mim,
+.lista-habilidades,
+.atividades {
+  margin-left: 25px;
+  text-align: justify;
+  background-color: #231f36;
+  color: white;
+  padding: 26px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+summary {
+  all: unset;
+}
+
+.summary-title:after {
+  background: black;
+  content: "+";
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+  left: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.experiencias[open] .summary-title:after {
+  content: "-";
+  cursor: pointer;
+}
+.qualificacoes[open] .summary-title:after {
+  content: "-";
+  cursor: pointer;
+}
+.hard-skills[open] .summary-title:after {
+  content: "-";
+  cursor: pointer;
+}
+
+.summary-subtitle:after {
+  background: black;
+  content: "+";
+  color: #fff;
+  float: left;
+  font-weight: bold;
+  padding: 0;
+  text-align: center;
+  width: 20px;
+  left: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.hard-skill[open] .summary-subtitle:after {
+  content: "-";
+  cursor: pointer;
+}
+
+.experiencias,
+.qualificacoes,
+.hard-skills,
+.habilidades,
+.atividade-extra,
+.h2-sobre-mim {
+  padding: 16px;
+  color: rgb(255 255 255);
+  background: rgb(16 28 34);
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.experiencia,
+.qualificacao,
+.hard-skill {
+  background-color: #231f36;
+  color: white;
+  margin: 10px;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 2px #000000;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  padding: 10px;
+  margin: auto;
+  width: 100%;
+  color: rgb(255 255 255);
+  background: rgb(16 28 34);
+  border-radius: 5px;
+}
+
+ul {
+  padding-bottom: 16px;
+  font-size: 0.8rem;
+}
+
+li + li {
+  margin-top: 0.5rem;
+}
+.experiencia a {
+  width: 10px;
+}
+
+#copyright {
+  text-align: center;
+  margin: 50px;
+}
