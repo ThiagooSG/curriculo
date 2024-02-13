@@ -1,5 +1,4 @@
 
-## Atividade 06/02/2024
+## Currículo 
 
-1. Desenvolva a atividade Prática - Curriculo Profissional  
-   Criar um exemplo de curriculo profissional básico
+Currículo desenvolvindo em HTML/CSS.
